@@ -28,8 +28,8 @@ Pod::Spec.new do |s|
   s.platform     = :ios, "8.0"
 
   s.source       = { :git => "https://github.com/jifengs/JFShare.git", :tag => "#{s.version}" }
-  s.source_files  = "JFShareDemo/Share/*.{h,m}"
-  s.resources = "JFShareDemo/Share/share_icons/*.png"
+  s.source_files  = "Share/*.{h,m}"
+  s.resources = "Share/share_icons/*.png"
 
   # s.framework  = "SomeFramework"
   # s.frameworks = "SomeFramework", "AnotherFramework"
