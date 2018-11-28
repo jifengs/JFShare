@@ -25,6 +25,7 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
+                   JFShare of JiFeng
                    DESC
 
   s.homepage     = "https://github.com/jifengs/JFShare.git"
@@ -64,7 +65,7 @@ Pod::Spec.new do |s|
   #
 
   # s.platform     = :ios
-  # s.platform     = :ios, "8.0"
+  s.platform     = :ios, "8.0"
 
   #  When using multiple platforms
   # s.ios.deployment_target = "5.0"
@@ -134,9 +135,9 @@ Pod::Spec.new do |s|
   # s.xcconfig = { "HEADER_SEARCH_PATHS" => "$(SDKROOT)/usr/include/libxml2" }
   # s.dependency "JSONKit", "~> 1.4"
 
-  s.dependency "UMengUShare/Social/Sina", "~> 6.4.8"
-  s.dependency "UMengUShare/Social/WeChat", "~> 6.4.8"
-  s.dependency "UMengUShare/Social/QQ", "~> 6.4.8"
-  s.dependency "UMengUShare/Social/SMS", "~> 6.4.8"
+  s.dependency "UMengUShare/Social/Sina"
+  s.dependency "UMengUShare/Social/WeChat"
+  s.dependency "UMengUShare/Social/QQ"
+  s.dependency "UMengUShare/Social/SMS"
 
 end
